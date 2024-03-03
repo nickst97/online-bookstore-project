@@ -1,0 +1,30 @@
+header {
+	background-color: var(--custom-cream-color) !important;
+	color: var(--custom-black) !important;
+}
+
+.logo {
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
+
+.nav-link {
+	display: flex;
+	margin-left: 10px;
+	text-decoration: none;
+	color: inherit;
+	align-items: center;
+}
+
+.nav-link button {
+	color: var(--custom-black);
+}
+.nav-link:hover {
+	text-decoration: underline;
+}

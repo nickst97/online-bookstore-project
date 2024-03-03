@@ -1,0 +1,105 @@
+#main-book-section {
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 15px;
+	min-height: 330px;
+	height: auto;
+}
+
+#book-cover-container {
+	display: flex;
+	flex-direction: column;
+	width: calc(30% - 30px);
+	align-items: center;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+#book-cover-container img {
+	height: 250px;
+	max-width: 100%;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+#book-information-container {
+	display: flex;
+	flex-direction: column;
+	width: calc(70% - 30px);
+	height: 100%;
+	gap: 15px;
+}
+
+#book-information-top-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+#book-information-top-title-container {
+	display: flex;
+	flex-direction: column;
+	max-width: calc(100% - 82px);
+}
+
+#book-information-bottom-container {
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+#other-books-section {
+	height: 400px;
+}
+
+#other-books-section button {
+	margin-top: 140px;
+}
+
+.styles-module_item-provider__YgMwz {
+	padding-bottom: 30px;
+}
+
+.styles-module_item-container__a8zaY {
+	cursor: default;
+}
+
+@media screen and (max-width: 770px) {
+	#main-book-section {
+		height: auto;
+	}
+
+	#book-information-container {
+		width: 100%;
+	}
+
+	#main-book-section,
+	#book-information-top-container,
+	#book-information-top-title-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	#book-information-top-container {
+		gap: 15px;
+		text-align: center;
+	}
+
+	#book-cover-container {
+		width: 100%;
+	}
+	#book-cover-container img {
+		height: 300px;
+	}
+
+	#book-information-bottom-container {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	#other-books-section {
+		width: 230px;
+		margin: auto;
+	}
+}

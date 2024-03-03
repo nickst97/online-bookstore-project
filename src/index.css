@@ -1,0 +1,73 @@
+:root {
+	--custom-black: #333333;
+	--custom-light-gray: #f8f9fa;
+	--custom-cream-color: #fbeee0;
+	--custom-orange: #c95752;
+}
+
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: scroll;
+	color: var(--custom-black);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	max-width: 945px;
+	margin: 30px auto;
+	gap: 45px;
+	padding: 0px 30px;
+}
+
+section {
+	display: flex;
+	align-items: center;
+}
+
+h4 {
+	font-weight: bold !important;
+}
+
+.page-title {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.page-description {
+	font-size: 18px;
+}
+
+.bookstore-button {
+	width: auto;
+	min-width: 150px;
+	height: 50px;
+	background-color: var(--custom-cream-color);
+	border: 2px solid var(--custom-black);
+	border-radius: 30px;
+	color: var(--custom-black);
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 0 14px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.bookstore-button:hover {
+	background-color: var(--custom-orange);
+	color: white;
+}
